@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+#inicio {
+    background-image: url(../img/fondo1.jpg);
+    height: 100vmin;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu p {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.lista li {
+    margin-left: 1.5rem;
+}
+
+.btn-menu {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.titular h1 {
+    font-size: 4rem;
+}
+
+.titular h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #5db8f8;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #4a9cd8;
+}
+
+/* Blog Section */
+#blog {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#blog h3 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.entrada {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.entrada h4 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.entrada p {
+    font-size: 1rem;
+    color: #666;
+    margin: 1rem 0;
+}
+
+/* Footer */
+#pie {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#pie p {
+    margin: 0;
+}
+
+.contenedor-proyectos, .contenedor-trabajos, .contenedor-blog {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    flex-wrap: wrap;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <script src="conversiones.js" defer></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <h2 id="Inicio">.:Conversor de Temperatura:.</h2>
+        <hr>
+        <form>
+            <label for="valor">Ingresa el valor:</label>
+            <input class="caja1" type="number" id="valor" required><br><br>
+
+            <label for="tipo">Tipo de conversión:</label>
+            <select class="caja2" id="tipo">
+                <option value="CtoF" selected>Celsius a Fahrenheit</option>
+                <option value="FtoC">Fahrenheit a Celsius</option>
+            </select><br><br>
+
+            <input type="button" id="boton" value="Convertir" onclick="convertir()">
+        </form>
+        <hr>
+        <div id="resultado" class="resultado-contenedor"></div>
+    </div>
+
+    <footer id="Abajo">
+        <p>.:YahmmirAntuna&copy;:.</p>
+    </footer>
+</body>
+</html>
