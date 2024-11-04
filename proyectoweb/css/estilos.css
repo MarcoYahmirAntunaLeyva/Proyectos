@@ -184,7 +184,129 @@ body{
     background-color: #5db8f8;
 }
 
+/* Estilos para secciones Proyectos, Mis Trabajos, Blog, y Contacto */
+
+/* Estilos para centrar la clase contenedor */
+
+/* Centrado de la clase contenedor */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los trabajos dentro de la sección de "Mis Trabajos" */
+.contenedor-trabajos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.trabajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.trabajo-imagen {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.trabajo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo adicional para h3 */
+#misTrabajos h3 {
+    margin-bottom: 20px;
+}
+
+
+
+.boton-blog-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.boton-blog {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.boton-blog:hover {
+    background-color: #0056b3;
+}
+
+.trabajo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.trabajo-link:hover .trabajo {
+    /* Cambia el color o añade un efecto cuando el usuario pase el ratón sobre el trabajo */
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+
+.contenedor h3 {
+    font-size: 7vmin;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.contenedor-proyectos, .contenedor-trabajos, .contenedor-blog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.contacto {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
 /* Aplicar estilos a el atributo class */
+[phone^="icon-"]{
+    font-size:2vmin;
+    float: left;
+    color: rgb(46, 93, 219);
+}
+
 
 [class^="icon-"]{
     font-size:5vmin;
