@@ -22,7 +22,7 @@ function convertir() {
         imagen = "CELSIUS-fARENHEIT.png";  
     }
 
-     let resultadoDiv = document.getElementById("resultado");
+    let resultadoDiv = document.getElementById("resultado");
     resultadoDiv.innerHTML = `
         <div class="resultado-contenido">
             <div>
