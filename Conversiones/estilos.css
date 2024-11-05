@@ -81,6 +81,7 @@ footer {
     margin-top: 2rem;
     font-size: 0.8rem;
     color: white;
-    text-aling: center;
+    text-align: center;
     align-items: center;
+    font-weight: bold;
 }
