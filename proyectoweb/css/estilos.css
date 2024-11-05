@@ -184,9 +184,6 @@ body{
     background-color: #5db8f8;
 }
 
-/* Estilos para secciones Proyectos, Mis Trabajos, Blog, y Contacto */
-
-/* Estilos para centrar la clase contenedor */
 
 /* Centrado de la clase contenedor */
 .contenedor {
@@ -290,12 +287,24 @@ body{
 .contacto {
     max-width: 600px;
     margin: auto;
-    padding: 20px;
+    margin-top: px;
+    border-radius: 20%;
+    border: 5px solid rgb(24, 64, 196);
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .contacto h2 {
+    font-size: 7vmin;
     text-align: center;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+#contacto{
+    display: flex;
+    padding-right: 20px;
 }
 
 
